@@ -1,0 +1,61 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.DEC_btn,
+.INC_btn {
+  width: 150px;
+  height: 50px
+}
+
+.POP_btn {
+  width: 90px;
+  height: 35px;
+  padding: 0;
+}
+
+.d_none {
+  display: none !important;
+}
+
+.POP_UP {
+  width: 350px;
+  height: 120px;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all .4s;
+}
+
+.POP_UP.translate {
+  top: -200px;
+}
+
+.content {
+  width: 520px;
+  height: 50px;
+  border-radius: 10px;
+  background: gray;
+  padding: 20px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
